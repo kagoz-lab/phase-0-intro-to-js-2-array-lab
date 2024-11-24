@@ -23,7 +23,7 @@ function destructivelyAppendCat() {
 }
 
 function appendCat() {
-    return cats.map((cat) => cat.concat("Broom"));
+    return [...cats,"Broom"];
 
 }
 
